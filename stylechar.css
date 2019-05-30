@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+
+body {
+	background-image: url("Different/Tree.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+	font-family: 'Carter One', sans-serif;
+	color: #e80000;
+	text-align: center;
+	margin: 0;
+}
+
+footer {
+    margin-top: 20px;
+    color: #eee;
+}
+
+a {
+    transition: 0.3s;
+}
+
+a:hover {
+    text-shadow: #fff026 0 3px 20px;
+}
+
+.c1:hover {
+    text-shadow: none;
+}
+
+.first {
+    background-image: url("Different/Paper.jpg");
+    background-size: cover;
+    
+    height: auto;
+    width: 80vw;
+    margin: 50px auto 0px;
+}
+
+header {
+    color: #e80000;
+}
+
+.s0 {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+header > h2 {
+    font-size: 50px;
+    margin: 10px auto;
+}
+
+a {
+    height: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+.wind {
+    background-image: url("Char/Main%20Windblade.png");
+    background-size: cover;
+    height: 600px;
+    width: 400px;
+    margin: -100px auto -50px;
+    z-index: 10;
+}
+
+.blurr {
+    background-image: url("Char/Blurr.png");
+    background-size: cover;
+    height: 600px;
+    width: 300px;
+    margin: auto;
+}
+
+.chrom {
+    background-image: url("Char/Chromia.png");
+    background-size: cover;
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    transform: scale(-1, 1);
+}
+
+.a1 {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    z-index: 4;
+    box-sizing: border-box;
+    padding: 0 5vw;
+}
+
+.tablo {
+    background-image: url("Different/Tablo.png");
+    background-size: cover;
+    height: 175px;
+    width: 290px;
+    margin: -20px auto 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.star {
+    background-image: url("Char/Starscream.png");
+    background-size: cover;
+    height: 600px;
+    width: 450px;
+    margin: auto;
+    
+}
+
+.flame {
+    background-image: url("Char/Mistress%20of%20flame.png");
+    background-size: cover;
+    height: 600px;
+    width: 450px;
+    margin: auto;
+}
+
+.a2 {
+    display: flex;
+    width: 70vw;
+    margin: 0 auto 30px;
+    justify-content: space-between;
+    z-index: 3;
+    box-sizing: border-box;
+    padding: 0 5vw;
+}
+
+.tablo > h2 {
+    opacity: 0;
+    height: 175px;
+    line-height: 175px;
+    font-weight: normal;
+    transition: 0.3s;
+}
+
+.wind1:hover .w1 {
+    color: #ff4949;
+    opacity: 1;
+}
+
+.blurr1:hover .b1 {
+    color: #00aeff;
+    opacity: 1;
+}
+
+.chrom1:hover .c1 {
+    color: #4997ff;
+    opacity: 1;
+}
+
+.star1:hover .s1 {
+    color: #ff6e49;
+    opacity: 1;
+}
+
+.flame1:hover .m1 {
+    color: #ff8235;
+    opacity: 1;
+}
+
+.first {
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1500px) {
+    .tablo {
+        transform: scale(0.9);
+    }
+    
+    .wind, .star, .blurr, .chrom, .flame {
+        background-size: contain;
+        background-position: center;
+        width: 20vw;
+        height: 30vw;
+        background-repeat: no-repeat;
+    }
+    
+    .a1, .a2 {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1400px) {
+    .tablo {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 1300px) {
+    .tablo {
+        transform: scale(0.75);
+    }
+    
+    .wind1 > .tablo {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1100px) {    
+    .star {
+        background-image: url("Char/Starscream.png");
+        background-size: cover;
+        height: 600px;
+        width: 450px;
+        margin: auto;
+    
+    }
+
+    .flame {
+        background-image: url("Char/Mistress%20of%20flame.png");
+        background-size: cover;
+        height: 600px;
+        width: 450px;
+        margin: auto;
+    }
+    
+    .wind {
+        background-image: url("Char/Main%20Windblade.png");
+        background-size: cover;
+        height: 600px;
+        width: 400px;
+        margin: -120px auto -50px;
+        z-index: 10;
+    }
+
+    .blurr {
+        background-image: url("Char/Blurr.png");
+        background-size: cover;
+        height: 600px;
+        width: 300px;
+        margin: auto;
+    }
+
+    .chrom {
+        background-image: url("Char/Chromia.png");
+        background-size: cover;
+        height: 600px;
+        width: 400px;
+        margin: auto;
+        transform: scale(-1, 1);
+    }
+    
+    .a1, .a2 {
+        display: block;
+    }
+    
+    .wind1, .wind, .wind1 > .tablo {
+        margin-top: 0;
+    }
+    
+    .tablo {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 956px) {
+    .s0 {
+        display: block;
+    }
+    
+    .star1, .flame1 {
+        margin: auto;
+    }
+}
+
+@media (max-width: 585px) {
+    .s0 {
+        display: block;
+        padding-top: 10px;
+    }
+    
+    header > h2, .s0 {
+        margin: auto;
+    }
+    
+    .wind, .star, .blurr, .chrom, .flame {
+        background-size: contain;
+        background-position: center;
+        width: 60vw;
+        height: 90vw;
+        background-repeat: no-repeat;
+    }
+    
+    .a2 {
+        width: 80vw;
+        margin: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    
+    .tablo {
+        transform: scale(0.75);
+        margin: -20px auto 0;
+    }
+    
+    header > h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .tablo {
+        margin: -20px -15px 0;
+    }
+}

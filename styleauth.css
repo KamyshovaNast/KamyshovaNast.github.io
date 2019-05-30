@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+
+body {
+	background-image: url("Different/Tree.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+	font-family: 'Carter One', sans-serif;
+	color: #e80000;
+	text-align: center;
+	margin: 0;
+}
+
+footer {
+    margin-top: 20px;
+    color: #eee;
+}
+
+a {
+    transition: 0.3s;
+}
+
+a:hover {
+    text-shadow: #fff026 0 3px 20px;
+}
+
+.c1:hover {
+    text-shadow: none;
+}
+
+.first {
+    background-image: url("Different/Paper.jpg");
+    background-size: cover;
+    
+    height: auto;
+    width: 80vw;
+    margin: 50px auto 0px;
+}
+
+header {
+    color: #e80000;
+}
+
+.s0 {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+header > h2 {
+    font-size: 50px;
+    margin: 10px auto;
+}
+
+a {
+    height: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+.first {
+    padding-bottom: 20px;
+}
+
+.img1 {
+    background-image: url("Char/Scott.png");
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 3vw;
+    margin-right: 20px;
+}
+
+.img2 {
+    background-image: url("Char/Sarah%20Stone.png");
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 3vw;
+    margin-right: 20px;
+}
+
+.img3 {
+    background-image: url("Char/8b90a21cf8502d5864105f2e8d1a9b24.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 424px;
+    float: right;
+    margin: 20px 3vw 20px 20px;
+}
+
+.fab {
+    font-size: 30px;
+    color: #333;
+    transition: 0.3s;
+}
+
+.au {
+    margin-top: 100px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.au > a {
+    text-shadow: none;
+}
+
+.fab:hover {
+    color: #4997ff;
+}
+
+.au > h2 {
+    margin-right: 3vw;
+}
+
+p {
+    color: #333333;
+    text-align: left;
+    font-family: sans-serif;
+    margin: 16px 3vw;
+    font-size: 16px;
+}
+
+.Sarah {
+    color: #4997ff;
+}
+
+span {
+    font-weight: bold;
+}
+
+.ms {
+    color: #e80000;
+}
+
+.int {
+    font-weight: bold;
+}
+
+.interview {
+    margin: 300px 3vw 75x;
+}
+
+@media (max-width: 956px) {
+    .s0 {
+        display: block;
+    }
+    
+    .img3 {
+        height: 70vw;
+        width: 65vw;
+        float: none;
+        margin: 20px auto;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}
+
+
+@media (max-width: 585px) {
+    .s0 {
+        display: block;
+        padding-top: 10px;
+    }
+    
+    header > h2, .s0 {
+        margin: auto;
+    }
+}
+
+@media (max-width: 420px) {
+    .img1, .img2 {
+        float: none;
+        margin: auto;
+    }
+    .au {
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    
+    header > h2 {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+
+body {
+	background-image: url("Different/Tree.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+	font-family: 'Carter One', sans-serif;
+	color: #e80000;
+	text-align: center;
+	margin: 0;
+}
+
+footer {
+    margin-top: 20px;
+    color: #eee;
+}
+
+.first {
+    background-image: url("Different/Paper.jpg");
+    background-size: cover;
+    
+    height: auto;
+    width: 80vw;
+    margin: 50px auto 0px;
+}
+
+a {
+    transition: 0.3s;
+}
+
+a:hover {
+    text-shadow: #fff026 0 3px 20px;
+}
+
+header {
+    color: #e80000;
+}
+
+.s0 {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+header > h2 {
+    font-size: 50px;
+    margin: 10px auto;
+}
+
+a {
+    height: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+.g1 {
+    font-size: 40px;
+}
+
+.img {
+    background-image: url("Char/Starscream.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 750px;
+    width: 450px;
+    float: left;
+    margin-right: 3vw;
+}
+
+p {
+    font-family: sans-serif;
+    color: #333333;
+    font-weight: normal;
+    text-align: left;
+    margin: 40px 5vw;
+}
+
+.ch {
+    text-align: left;
+    margin: 3vw 0 0 3vw;
+    color: #ff6e49;
+    font-size: 40px;
+}
+
+.first {
+    padding-bottom: 10px;
+}
+
+.back {
+    font-size: 30px;
+    color: #ff6e49;
+}
+
+@media (max-width: 956px) {
+    .s0 {
+        display: block;
+        padding-top: 10px;
+    }
+    
+    .star1, .flame1 {
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .img {
+        float: none;
+        margin: auto;
+    }
+    
+    .ch {
+        text-align: center;
+    }
+}
+
+@media (max-width: 585px) {
+    .s0 {
+        display: block;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .img {
+        width: 70vw;
+        height: 80vw;
+    }
+}
+
+@media (max-width: 400px) {
+    header > h2 {
+        font-size: 40px;
+    }
+}

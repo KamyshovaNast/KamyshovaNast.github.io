@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+
+body {
+	background-image: url("Different/Tree.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+	font-family: 'Carter One', sans-serif;
+	color: #eee;
+	text-align: center;
+	margin: 0;
+}
+
+.tfwind {
+	background-image: url("Different/TF.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 150px;
+	width: 500px;
+	margin: auto;
+}
+
+main {
+	margin-top: 20px;
+	color: #e80000;
+}
+
+.center {
+	display: flex;
+	height: 555px;
+	justify-content: space-around;
+}
+
+.char {
+	background-image: url("Different/Paper.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	height: 450px;
+	width: 300px;
+	transform: rotate(-20deg);
+}
+
+.authors {
+	background-image: url("Different/Paper.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	height: 450px;
+	width: 300px;
+	transform: rotate(20deg);
+}
+
+.plot {
+	background-image: url("Char/fafdd7e9d389c549070add6c37559d8b--transformers-art-transformers-windblade.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	height: 500px;
+	width: 300px;
+}
+
+.chromia {
+	background-image: url("Char/Chromia.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	height: 400px;
+	width: 250px;
+	margin: auto;
+	margin-left: 14px;
+}
+
+.starscream {
+	background-image: url("Char/Starscream.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	height: 400px;
+	width: 250px;
+	transform: scale(-1, 1);
+	margin: auto;
+	margin-left: 25px;
+}
+
+h2 {
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.authors:hover h2 {
+	opacity: 1;
+}
+
+.char:hover h2 {
+	opacity: 1;
+}
+
+.plot1:hover h2 {
+	opacity: 1;
+}
+
+@media (max-width: 1200px) {
+	.char {
+		transform: rotate(0deg);
+	}
+	
+	.authors {
+		transform: rotate(0deg);
+	}
+}
+
+@media (max-width: 1024px) {
+	.center {
+		display: block;
+		height: 1500px;
+	}
+	.char, .plot1, .authors {
+		margin: 20px auto;
+	}
+	
+	.plot {
+		margin: auto;
+	}
+	
+	footer {
+		margin-top: 20px;
+	}
+	
+	.tfwind {
+		width: 70vw;
+		margin: auto;
+		min-width: 320px;
+	}
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #e80000;
+}
+
+.plot1 > h2 {
+	font-size: 40px;
+	font-weight: 800;
+	margin: 0;
+	margin-top: -3px;
+	color: #eee;
+	text-shadow: 
+		-0   -4px 0   #E80000,
+		 0   -4px 0   #E80000,
+		-0    4px 0   #E80000,
+		 0    4px 0   #E80000,
+		-4px -0   0   #E80000,
+		 4px -0   0   #E80000,
+		-4px  0   0   #E80000,
+		 4px  0   0   #E80000,
+		-1px -4px 0   #E80000,
+		 1px -4px 0   #E80000,
+		-1px  4px 0   #E80000,
+		 1px  4px 0   #E80000,
+		-4px -1px 0   #E80000,
+		 4px -1px 0   #E80000,
+		-4px  1px 0   #E80000,
+		 4px  1px 0   #E80000,
+		-2px -4px 0   #E80000,
+		 2px -4px 0   #E80000,
+		-2px  4px 0   #E80000,
+		 2px  4px 0   #E80000,
+		-4px -2px 0   #E80000,
+		 4px -2px 0   #E80000,
+		-4px  2px 0   #E80000,
+		 4px  2px 0   #E80000,
+		-3px -4px 0   #E80000,
+		 3px -4px 0   #E80000,
+		-3px  4px 0   #E80000,
+		 3px  4px 0   #E80000,
+		-4px -3px 0   #E80000,
+		 4px -3px 0   #E80000,
+		-4px  3px 0   #E80000,
+		 4px  3px 0   #E80000,
+		-4px -4px 0   #E80000,
+		 4px -4px 0   #E80000,
+		-4px  4px 0   #E80000,
+		 4px  4px 0   #E80000,
+		-4px -4px 0   #E80000,
+		 4px -4px 0   #E80000,
+		-4px  4px 0   #E80000,
+		 4px  4px 0   #E80000;
+}
+

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+
+body {
+	background-image: url("Different/Tree.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+	font-family: 'Carter One', sans-serif;
+	color: #333;
+	text-align: center;
+	margin: 0;
+}
+
+footer {
+    margin-top: 20px;
+    color: #eee;
+}
+
+a {
+    transition: 0.3s;
+}
+
+a:hover {
+    text-shadow: #fff026 0 3px 20px;
+}
+
+.first {
+    background-image: url("Different/Paper.jpg");
+    background-size: cover;
+    
+    height: auto;
+    width: 80vw;
+    margin: 50px auto 0px;
+}
+
+header {
+    color: #e80000;
+}
+
+.s0 {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+header > h2 {
+    font-size: 50px;
+    margin: 10px auto;
+}
+
+a {
+    height: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+.parts {
+    color: #4997ff;
+    display: flex;
+    justify-content: space-around;
+    margin: 2vw 10vw;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: left;
+    margin: 40px 5vw;
+}
+
+.fi {
+    background-image: url(Plot/Transformers%2520Windblade%25201%2520Comic%2520Book%2520Art%2520by%2520Sarah%2520Stone%2520Image__scaled_600.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 390px;
+    margin-left: 5vw;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.sec {
+    background-image: url(Plot/Windblade2_windblade_ironhide_chromia.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 387px;
+    width: 567px;
+    margin-right: 5vw;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.metro {
+    background-image: url(Plot/Metroplex.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 370px;
+    width: 400px;
+    margin: auto;
+}
+
+.wind {
+    background-image: url(Plot/800px-Windblade4-nolongerwindblade.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    width: 800px;
+    margin: auto;
+}
+
+.txt {
+    text-align: center;
+}
+
+.first {
+    padding-bottom: 20px;
+}
+
+.p1 > h2 {
+    color: #4997ff;
+    font-size: 35px;
+}
+
+@media (max-width: 1024px) {
+    .wind {
+        height: 20vw;
+        width: auto;
+        margin: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .sec {
+        height: 45vw;
+        width: auto;
+        margin: auto;
+        float: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .fi {
+        height: 90vw;
+        width: auto;
+        margin: auto;
+        float: none;
+    }
+    
+    .metro {
+        height: 65vw;
+        width: auto;
+        margin: auto;
+        float: none;
+    }
+
+    .parts {
+        display: block;
+    }
+    
+    .s0 {
+        margin-top: 10px;
+        display: block;
+    }
+}
